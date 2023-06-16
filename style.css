@@ -1,4 +1,45 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
+  max-width: 600px;
   color: black;
+  text-align: center;
 }
+
+div {
+  border: 5px solid;
+  border-color: black;
+  background-color: rgb(229, 250, 155);
+
+}
+
+h5 {
+  padding: 0px;
+}
+
+img {
+  align-content: center;
+}
+
+.list {
+  list-style-type: circle;
+  list-style-position: inside;
+  padding: auto;
+  margin: 25px;
+  text-align: left;
+}
+
+.list.order {
+  list-style-type: decimal;
+}
+
+.links {
+  list-style-type: none;
+}
+
+.links.list {
+  text-align: center;
+}
+
+
+
+
